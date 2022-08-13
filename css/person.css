@@ -1,0 +1,754 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+body
+{
+    background-color: #db5135 ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.center
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    /* background-color: rgb(95, 79, 169); */
+
+}
+.flexbox
+{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+/* first part start ***************************************************************/
+
+/* 
+@keyframes anim1 {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes anim2 {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+ */
+
+nav
+{
+    z-index: 20;
+    /* background-color: rgba(145, 55, 24, 1); */
+    background-color: #dc8b44;
+
+    padding:20px 2%;
+    width:100%;
+}
+
+
+.title
+{
+    display: flex;
+    gap:7px;
+    width: 60%;
+    letter-spacing:1px;
+    align-items: center;
+    color: white;
+}
+.title h3{
+    margin-right:20px;
+    margin-top:3px;
+}
+.logo
+{
+    width:200px;
+    /* background-color: aqua; */
+}
+
+.logo img
+{
+    /* height: 100px; */
+    width:100%;
+    /* background-color: #2bff39; */
+    background: none;
+    /* border-radius:15%; */
+
+}
+.option
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width:36%;
+   
+}
+.option button{
+    height: 40px;
+    border-radius:8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+    border: none;
+    align-items: center;
+    
+
+}
+
+.option .button1
+{
+    width: 80px;
+    background-color: #db5135;
+
+
+}
+
+.option .button2
+{
+    width: 120px;
+    background-color: #931510;
+
+
+
+}
+.button1:hover{
+    opacity:0.8;
+}
+.button2:hover{
+    opacity:0.8;
+}
+
+.nav-menu
+{
+    list-style:none;
+    width: 60%;
+    font-family: Arial;
+
+
+}
+
+.sticky
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+
+nav a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    display: inline-block;
+}
+nav .title a{
+    color:#931510 ;
+    
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav .option .button2 a{
+    color:#dc8b44;
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+nav .option .button1 a{
+    color: #931510 ;
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+nav h3{
+    font-weight:bold;
+    font-size: 20px;
+
+
+}
+
+
+
+
+
+
+header nav .navMenu {
+    width: 60%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav .navMenu li {
+    padding-top: 1px;
+}
+
+header nav .navMenu a {
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+
+
+
+.banner
+{
+    /* background-image:url(../img2/header\ background.png); */
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height:500px;
+    position: relative;
+    top:70px;
+    text-align: center;
+    color:#dc8b44;
+    background-color: #931510 ;
+    
+
+}
+
+.banner .content{
+    position: relative;
+    top: 120px;
+}
+.banner h1{
+    font-weight: bolder;
+}
+.banner h5{
+    color:#dc8b44;
+
+    font-size:20px;
+    font-weight:600;
+    /* text-align: justify; */
+    line-height: 30px;
+    margin-top: 40px;
+
+}
+
+.banner hr{
+    width: 60%;
+    border-top: 2px solid #dc8b44;
+    ;
+    margin-left: 200px;
+    margin-top: 20px;
+
+    /* border-top: 10px solid red; */
+
+}
+
+
+
+.banner button{
+
+    width:240px;
+
+/* this is for button */
+    height:55px;
+    border-radius:10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+    border: none;
+    /* align-items: center; */
+    /* background-color: #ffc15e; */
+    background-color:#dc8b44;
+    ;
+    margin-top: 40px;
+    color: #931510;
+
+
+
+
+
+    
+}
+
+.banner-button a{
+    text-decoration: none;
+    font-size:20px;
+    color: #931510;
+    font-weight: bold;
+
+    
+    font-family: Arial;
+    display: inline-block;
+
+}
+
+.banner-button:hover{
+    opacity: 0.7;
+}
+
+/* Wesite  start and common part complete ***************************************************************/
+
+/* wesite content start */
+
+/* eleventh******************************************************************* */
+
+.banner1
+{
+    position: relative;
+    top:90px;
+    text-align: center;
+    color:black;
+    margin-bottom:90px;
+}
+/* leftside */
+.consult-img
+{
+    width:30%;
+    /* background-color: rgb(145, 55, 24); */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    padding-top: 40px;
+   
+}
+
+.banner1 .person-pic
+{
+    background-color: rgb(16, 0, 246);
+    width:80%;
+    border-radius: 50%;
+
+}
+.banner1 .person-pic img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.consult-div
+{
+    /* background-color: rgb(142, 235, 20); */
+    background-color: #dc8b44;
+
+    border: 2px solid #ffc15e;
+    width: 80%;
+    border-radius: 20px;
+    padding-top: 20px;
+    /* background-color: #ffc15e; */
+
+}
+.consult-button
+{
+    margin: 20px;
+    width: 250px;
+}
+.banner1 button{
+    width:200px;
+    height:45px;
+    border-radius:20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+    border: none;
+    background-color:  #931510 ;
+
+    color:white;
+    margin-top:20px;
+}
+
+.banner1 button a{
+    text-decoration: none;
+    font-size:18px;
+    color:white;
+    
+    font-family: Arial;
+    display: inline-block;
+
+}
+
+.banner1 button:hover{
+    opacity: 0.7;
+}
+
+
+
+/* rightside */
+.content
+{
+    width:70%;
+    /* background-color: pink; */
+    padding: 30px;
+    background-color:rgba(220, 139, 68,0.6);
+    /* background-color:rgba(220, 139, 68); */
+
+
+}
+.banner1 h2{
+    color:  #931510 ;
+    font-size:27px;
+    font-weight:bold;
+    /* text-align: justify; */
+    line-height: 30px;
+}
+
+.second-sec h3{
+    font-size:16px;
+    color:  #931510 ;
+
+    font-weight:bold;
+    line-height: 30px;
+
+}
+.for-h3 span
+{
+    color:black;
+
+    font-weight:bold;
+}
+
+.language
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.language h6
+{
+    font-weight: bold;
+    margin-top:5px;
+
+    /* margin-top:8px; */
+
+}
+.fa-language
+{
+    color:  #931510 ;
+    margin-bottom:15px;
+
+    font-size:20px;
+
+    
+}
+.know
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.fa-book-open
+{
+    margin-top:8px;
+    font-size:20px;
+    color:#931510;
+
+}
+.know h6{
+    font-size: 15px;
+    margin-top:5px;
+
+}
+
+.bio h4{
+    font-weight: bolder;
+    color: #931510;
+
+}
+.bio p{
+    text-align: justify;
+    line-height:25px;
+    font-size: 15px;
+
+}
+.third-sec hr{
+    border-top: 2px solid #931510;
+}
+/* 
+.fourth-sec
+{
+} */
+
+/* 
+.fourth-sec 
+{
+    background-color: pink;
+} */
+
+/* .fourth-sec .gal
+{
+    width: 19%;
+    border-radius:20px;
+
+}
+
+.fourth-sec .gal img
+{
+    width:100%;
+    border-radius:10px;
+
+} */
+
+/* carousel start*/
+.carousel-indicators .active
+{
+    height: 3px;
+    width: 30px;
+
+    
+}
+
+.carousel-inner img {
+    width: 15%;
+    height:55%;
+    border-radius:20px;
+
+  }
+  .carousel-inner .extra
+  {
+  	display:flex;
+    flex-direction:row;
+    gap:13px;
+    background-color:rgba(220, 139, 68,1);
+    z-index:-1;
+  }
+/* carousel end*/
+
+
+.ratings
+{
+    /* background-color: aqua; */
+    /* margin-top: 100px; */
+    /* margin-bottom: 100px; */
+    width:40%;
+    /* margin-left:300px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.ratings .little-pic{
+    width:10%;
+    margin-top: 5px;
+}
+.ratings img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+.checked
+{
+    color:gold;
+    margin-bottom:25px;
+
+}
+
+.ratings h5{
+    color: #931510;
+    font-weight:600;
+}
+
+.ratings h6{
+    color: #dc8b44;
+    font-weight:600;
+}
+
+#section1 hr{
+    border-top: 2px solid #931510;
+    margin-top:100px;
+    margin-bottom: 30px;
+
+}
+
+#section1 h4 span{
+    font-size: 30px;
+}
+
+
+
+/* accordian */
+.faq{
+    margin-bottom: 60px;
+}
+.faq h2{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #dda181;
+}
+.faq p{
+    font-size: 13px;
+}
+.faq .accordion {
+    background-color:#dda181;
+    color: #444;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #d8d8d8; 
+  }
+  
+  .faq .panel {
+    padding: 20px 18px;
+    border-radius: 20px;
+
+    margin-bottom: 0;
+    display: none;
+    background-color: #fdceab;
+    overflow: hidden;
+  }
+
+
+
+/* twelve part/ footer***************************************************************************************/
+
+
+#sec12
+{
+    background-color: #913718;   
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffc15e;
+    /* margin-bottom: 200px; */
+    padding-bottom:50px;
+}
+#sec12 hr
+{
+    border-color: #f76b2a ;
+}
+
+.four-section
+{
+    padding:50px;
+    color: red;
+    text-align: center;
+}
+
+.four-section li{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* #913718 */
+.four-section h4
+{
+
+    color:#ffc15e;
+    font-weight:600;
+}
+
+.four-section li
+{
+    color:#ffc15e ;
+    line-height: 30px;
+    
+}
+.second-last 
+{
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.second-last p
+{
+    width: 45%;
+    font-size: 14px;
+    /* background-color: aqua; */
+    
+
+}
+.second-last .points 
+{
+    display: flex;
+    flex-direction: row;
+    width:35%;
+    gap:25px;
+}
+.second-last .points h6
+{
+   font-size: 15px;
+}
+
+
+.second-last .footer-pic
+{
+    width:8%;
+
+}
+.second-last .footer-pic img
+{
+    width:100%;
+
+}
+
+.second-last .footer-pic img
+{
+    width:100%;
+}
+
+.second-last
+{
+   padding-left: 50px;
+}
+
+.second-last .last
+{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.second-last .last h6
+{
+    margin-top: 100px;
+    font-size:18px;
+}
+
+
+.marginhr
+{
+    margin-bottom:35px;
+}
+
+
+
+
