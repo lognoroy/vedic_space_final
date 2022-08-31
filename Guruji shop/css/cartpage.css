@@ -1,0 +1,145 @@
+
+
+/* second part start ***************************************************************/
+
+.total
+{
+    /* background-color: aquamarine; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px 50px;
+    display: flex;
+
+}
+.little-box
+{
+    display: flex;
+    gap: 10px;
+}
+.coupon input{
+    height: 40px;
+    width: 200px;
+}
+
+.left-total
+{
+    /* background-color: rgb(135, 73, 194); */
+    padding: 30px;
+    width: 70%;
+}
+
+.left-total button{
+    border-radius:8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+    border: none;
+    align-items: center;
+    margin-left: 50px;
+    margin-top:30px;
+    background-color: #931510;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    z-index: 1;
+}
+.com
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.com2
+{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:380px;
+    width:59%;
+    justify-content: space-between;
+    font-weight:bold;
+    font-size:18px;
+}
+
+/* .com2 .hd{
+    margin-left: 30px;
+
+} */
+
+.img-center
+{
+    width:20%;
+}
+.img-center img
+{
+    width:40%;
+}
+.little-box
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-total
+{
+    background-color: #ffc15e;
+    width:30%;
+    padding: 30px;
+    border: 2px solid gray;
+
+}
+.right-total .sub
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-total .right-money
+{
+    color: #931510;
+}
+.total-right-money
+{
+    font-weight: bold;
+    color: #931510;
+
+}
+.bold-right
+{
+    font-weight: bold;
+
+}
+.right-total .discount
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.right-total .total-money
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.right-total button a
+{
+    text-decoration: none;
+    color: white;
+
+}
+.right-total button{
+    border-radius:8px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.1s ease;
+    border: none;
+    align-items: center;
+    margin-left: 50px;
+    margin-top:30px;
+    background-color: #931510;
+    color: #fff;
+    width: 250px;
+    height: 50px;
+    z-index: 1;
+}

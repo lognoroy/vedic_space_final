@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    
+    <!-- Google Fonts Import Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" integrity="sha512-Oy+sz5W86PK0ZIkawrG0iv7XwWhYecM3exvUtMKNJMekGFJtVAhibhRPTpmyTj8+lJCkmWfnpxKgT2OopquBHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <!-- Font Awesome Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Filter.css">
+    <link rel="stylesheet" href="css/shop.css">
+
+</head>
+<style>
+  .all{
+    width: 100%;
+    height: 1350px;
+    background-color: #ffc15e;
+  }
+  .slidecontainer {
+    position: relative;
+      height: 60px;
+      width: 210px;
+      display: inline-block;
+      margin-top: 15px;
+      margin-left: 20px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-bottom: 20px;
+}
+
+
+.slider1 {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  color: #000;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  position: relative;
+  top: 32px;
+  
+
+}
+
+.slider1:hover {
+  opacity: 1;
+}
+.value{
+    display: flex;
+    flex-direction: row;
+}
+
+
+  </style>
+<body>
+  
+<!--Website Starts From Here-->
+<header>
+  <nav id="menu-bar" class="sticky">
+      <div class="center flexbox">
+
+      <div class="title">
+        <a href="../Guruji home/guruji.html">
+          <div class="logo">
+              <img src="../Guruji home/img2/side-by-side-icon-with-text-and-tagine--in-center.png" alt="">
+          </div>
+        </a>
+          <!-- <h3>Guruji</h3>    -->
+          <ul class="nav-menu flexbox part1">
+            <li><a href="../Guruji consult/consult.html">Consult with astrologers</a></li>
+            <li><a href="../Guruji blog/blog.html">Blog</a></li>
+            <li><a href="shop.html">Shop</a></li>
+          </ul>  
+      </div>
+      
+      <div class="option">
+          <ul class="nav-menu flexbox part2">
+              <li>
+                  <!-- <button class="button1"><a href="#">English</a> -->
+
+                      <div class="dropdown">
+                      <button class="button1 dropdown-toggle" type="button" id="menu1" data-toggle="dropdown"><a href="#">Shop</a>
+                      <span class="caret"></span></button>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                        <li ><a role="menuitem" tabindex="-1" href="#">Bracelet</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Ring</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Bracelet</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Bracelet</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Ring</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Bracelet</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Ring</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Bracelet</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Ring</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Bracelet</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Ring</a></li>
+                        <li ><a role="menuitem" tabindex="-1" href="#">Ring</a></li>
+                          
+                      </ul>
+                  </div>
+
+              </li>
+              
+              <li><button class="button2"><a href="track.html">Track Order</a></button></li>
+          </ul>
+      </div>
+      <li>      
+        <!-- sidebar start    -->
+        <div id="mySidebar" class="sidebar">
+        
+          <h4>Shopping Cart</h4>
+        
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <hr>
+        
+          <div class="flo">
+            <div class="pic">
+              <img src="../Guruji home/img2/logo_low (1).jpg" alt="">
+            </div>
+            <div class="op">
+                    <div class="lo">
+                        <p>10 Mukhi Rudraksha</p>
+                        <div class="product-price1">
+                            <div class="select">
+                                    <input type="button" onclick="decrementValue()" value="-" class="input1" />
+                                    <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" class="input2" />
+                                    <input type="button" onclick="incrementValue()" value="+" class="input3" />
+                            </div>
+                          </div>
+                    </div>
+                    
+                        <div class="po">
+                        <p class="price4">₹5,333.00</p>
+                      </div>
+              </div>
+          </div>
+          <hr>
+          <div class="flo">
+            <div class="pic">
+              <img src="../Guruji home/img2/logo_low (1).jpg" alt="">
+            </div>
+            <div class="op">
+                    <div class="lo">
+                        <p>10 Mukhi Rudraksha</p>
+                        <div class="product-price1">
+                            <div class="select">
+                                    <input type="button" onclick="decrementValue()" value="-" class="input1" />
+                                    <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" class="input2" />
+                                    <input type="button" onclick="incrementValue()" value="+" class="input3" />
+                            </div>
+                          </div>
+                    </div>
+                    
+                        <div class="po">
+                        <p class="price4">₹5,333.00</p>
+                      </div>
+              </div>
+          </div>
+          <hr>
+        
+              
+                
+          
+          <div class="check-view">
+            <a href="payment.html" class="check" ><button>Checkout</button> </a>
+            <a href="cartpage.html" class="view" ><button>view cart</button></a>
+          </div>            
+          
+
+        
+                    
+        </div>
+        <!-- sidebar end    -->
+
+        <div id="main">
+          <button class="openbtn" onclick="openNav()"><i class="bi bi-cart4" id="todo3"></i></button>  
+         
+        </div>
+     
+      </div>
+  </nav>
+</header>
+  <div class="all" >
+    <div class="search-container" style="float: left;margin-top: 120px;">
+        <form>
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="bi bi-search"></i></button>
+        </form>
+      </div>
+      <div class="poi"><p></p></div>
+      
+      <div class="dropdown" style="float: right;margin-bottom: 30px;margin-right: 20px;margin-top: 120px;">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          Defalt sorting
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Sort by popularity</a>
+          <a class="dropdown-item" href="#">Defalt sorting</a>
+          <a class="dropdown-item" href="#">Defalt sorting</a>
+          
+        </div>
+      </div>
+     
+      <div class="part6" style="float: right;margin-right: 70px;">
+        <div class="part5 type1">
+            
+            <div class="slidecontainer">
+              <h4>Filter by price</h4>
+              <input type="range"   min="1880" max="13120" value="1880" class="slider1" id="myRange">
+              <input type="range" min="1880" max="13120" value="13120" class="slider" id="myRanger">
+        <button style="background-color: violet;color:#fff;border: none;border-radius: 20px;width: 25%;margin-bottom: 20px;">Filter</button>
+            
+              <div class="value">
+              <p>Price:$<span id="demo"></span>-$<span id="demor"></span></p>
+            </div>
+            </div>
+          <div class="product-cate">
+            <h4 style="margin-bottom: 40px;">Product Categories</h4>
+            <div class="p-name" style="float: left;">
+              <p>Rudraksh</p>
+              <p>Gemstone</p>
+               <p>Pooja</p>
+               <p>Ganesh Pooja</p>
+               <p>Deepdan</p>
+               <p>Rakhi</p>
+               <p>Name Correction</p>
+               <p>Healing</p>
+               <p>Past Life Regression</p>
+              <p>Spell</p>
+              <p>Birth Time Rectification</p>
+                
+                
+          
+            </div>
+            <div class="p-number" style="float: right;">
+              <p>(13)</p>
+              <p>(13)</p>
+              <p>(13)</p>
+              <p>(13)</p>
+              <p>(13)</p>
+              <p>(13)</p>
+              <p>(13)</p>
+              <p>(13)</p>
+              <p>(13)</p>
+              <p>(13)</p>
+              <p>(13)</p>
+
+             
+            </div>
+          </div>
+        </div>
+        <div class="type2" >
+            <div class="hello" onclick="show()">
+            <div class="card" style="width: 30rem;">
+                <div class="discount">-9%</div>
+                <img class="card-img-top" src="../Guruji home/img2/boyBlue.jpg" alt="Card image cap" style="width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">Bracelet</h5>
+                  <p class="card-text">Amethyst Bracelet</p>
+                  <div class="price">
+                    <p class="slash"><s>₹1,467.00 </s></p>
+                    <p>₹1,334.00</p>
+                  </div>
+                  <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+                </div>
+              </div>
+            </div>
+            
+        
+    
+            <div class="hello" onclick="show()">
+                <div class="card" style="width: 30rem;">
+                <div class="discount">-9%</div>
+
+                    <img class="card-img-top" src="../Guruji home/img2/boyBlue.jpg" alt="Card image cap" style="width: 100%;">
+                    <div class="card-body">
+                      <h5 class="card-title">Bracelet</h5>
+                      <p class="card-text">Amethyst Bracelet</p>
+                      <div class="price">
+                        <p class="slash"><s>₹1,467.00 </s></p>
+                        <p>₹1,334.00</p>
+                      </div>
+                      <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+                    </div>
+                  </div>
+      </div>
+      <div class="hello"  onclick="show()">
+
+        <div class="card" style="width: 30rem;">
+            <div class="discount">-9%</div>
+
+            <img class="card-img-top" src="../Guruji home/img2/boyBlue.jpg" alt="Card image cap" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Bracelet</h5>
+              <p class="card-text">Amethyst Bracelet</p>
+              <div class="price">
+                <p class="slash"><s>₹1,467.00 </s></p>
+                <p>₹1,334.00</p>
+              </div>
+              <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="type2">
+
+      <div class="hello"  onclick="show()">
+
+        <div class="card" style="width: 30rem;" id="item7">
+            <div class="discount">-9%</div>
+
+            <img class="card-img-top" src="../Guruji home/img2/boyBlue.jpg" alt="Card image cap" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Bracelet</h5>
+              <p class="card-text">Amethyst Bracelet</p>
+              <div class="price">
+              <p class="slash"><s>₹1,467.00 </s></p>
+              <p>₹1,334.00</p>
+            </div>
+              <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+            </div>
+          </div>
+      </div>
+      <div class="hello" onclick="show()">
+        <div class="card" style="width: 30rem;">
+        <div class="discount">-9%</div>
+
+            <img class="card-img-top" src="../Guruji home/img2/boyBlue.jpg" alt="Card image cap" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Bracelet</h5>
+              <p class="card-text">Amethyst Bracelet</p>
+              <div class="price">
+                <p class="slash"><s>₹1,467.00 </s></p>
+                <p>₹1,334.00</p>
+              </div>
+              <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+            </div>
+          </div>
+</div>
+<div class="hello" onclick="show()">
+  <div class="card" style="width: 30rem;">
+  <div class="discount">-9%</div>
+
+      <img class="card-img-top" src="../Guruji home/img2/boyBlue.jpg" alt="Card image cap" style="width: 100%;">
+      <div class="card-body">
+        <h5 class="card-title">Bracelet</h5>
+        <p class="card-text">Amethyst Bracelet</p>
+        <div class="price">
+          <p class="slash"><s>₹1,467.00 </s></p>
+          <p>₹1,334.00</p>
+        </div>
+        <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+      </div>
+    </div>
+</div>
+</div>
+
+
+     
+<div class="button7">
+<a href="Filter-view.html"><button class="btn btn-primary color">View more</button></a>
+</div>
+</div>
+
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
+
+ 
+<!-- twelveth part start**************************************************************** -->
+<section id="sec12" >
+
+  <div class="four-section flexbox center">
+
+       <div class="part-one">
+           <h4>Mouri Roy</h2>
+           <hr>
+
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+       </div>
+       <div class="part-two">
+           <h4>Mouri Roy</h2>
+           <hr>
+
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+       </div>
+       <div class="part-three">
+           <h4>Mouri Roy</h2>
+           <hr>
+
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+       </div>
+
+       <div class="part-four">
+           <h4>Mouri Roy</h2>
+           <hr>
+
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+           <li>Full Moon Dates</li>
+       </div>
+</div>
+   
+
+<hr class="center">
+
+<div class="second-last flexbox center">
+
+   <div class="footer-pic">
+       <img src="../Guruji home/img2/icon-only-small-size.png" alt="">
+   </div>
+
+   <h6>The best platform to take online consultation with astrologers.
+       Provide guidance and predition for your better life.</h6>
+
+   <div class="points">
+       <h6>Terms about</h6>
+       <h6>Terms about</h6>
+       <h6>Terms about</h6>
+       <h6>About about</h6>
+   </div>
+
+</div>
+   <hr class="center marginhr">
+
+   <div class="last center">
+       <h6>© Drall and Dholiya Private Limited 2021</h6>
+   </div>
+
+</section>
+
+
+<script src="js/shop.js"></script>
+</body>
+</html>
+  
