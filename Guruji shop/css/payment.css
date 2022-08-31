@@ -126,23 +126,26 @@ nav
 {
     width: 50px;
 }
-
 .option .button2
 {
     width: 120px;
     background-color: #931510;
-    position: absolute;
-
-
 
 }
+
 #google_translate_element:hover{
     opacity:0.8;
 }
 .button2:hover{
     opacity:0.8;
 }
-
+.option .button3{
+  font-size:28px;
+  color: #913718;
+  background: none;
+  font-weight: bold;
+  padding: 5px 5px 35px 10px;
+}
 .nav-menu
 {
     list-style:none;
@@ -586,8 +589,8 @@ header nav .navMenu a {
     width: 100%;
 }
 .part2{
-    width:35%;
-    /* background-color: #358ED7; */
+  width:100%;
+  /* background-color: #358ED7; */
 }
 .box1{
     width: 100%;
@@ -1439,4 +1442,39 @@ padding-right: 10px;
 }
 .po{
   margin-top: 35px;
+}
+
+
+
+/* otp starts ******************************************8*/
+.input-box input
+{
+  width:90%;
+  background-color: rgb(238, 238, 238);
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius:10px;
+  height: 50px;
+}
+   
+/* search start */
+.input-box button
+{
+  outline: none;
+  border: none;
+  background: none;
+ 
+}
+
+
+
+.search-bar-icon
+{
+  font-size:28px;
+  color:rgb(129, 128, 128);
+  background: none;
+  font-weight: bold;
+  padding: 5px 5px 35px 10px;
+
 }

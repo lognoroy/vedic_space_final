@@ -27,7 +27,7 @@
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
    <!-- Font Awesome Link -->
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS Stylesheet Import Link -->
     <link rel="stylesheet" type="text/css" href="css/shop.css">
 
@@ -83,6 +83,7 @@
               </li>
               
               <li><button class="button2"><a href="track.html">Track Order</a></button></li>
+              <li><button class="button3" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search"></i></button></li>
           </ul>
       </div>
       <li>   
@@ -163,88 +164,119 @@
       </div>
   </nav>
 </header>
+
+<!-- search ********************************start -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">TYPE TO SEARCH</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body input-box">
+        <br>
+        <input type="text" placeholder="Search products">
+        <button class="search-bar-icon"><i class="fa fa-search"></i></button>
+        <br>
+        <br>
+        <br>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- search end***************************************************************** -->
+
+
+
+
+
+
+
+
 <div id="youtube">
 
     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
-    <div class="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-          </ol>
-     
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="item active">
-             <a href="temp.html"> <img src="../Guruji home/img2/boyBlue.jpg" alt="Los Angeles" style="width:100%;height: 700px;"></a>
-            </div>
-      
-
-            <div class="item">
-              <a href="temp.html">  <img src="../Guruji home/img2/girlWithBook.jpeg" alt="Chicago" style="width:100%;height: 700px;" ></a>
-            </div>
-          
-            <div class="item">
-              <a href="temp.html">  <img src="../Guruji home/img2/boyBlue.jpg" alt="New york" style="width:100%;height: 700px;" ></a>
-            </div>
-          </div>
-      
-          <!-- Left and right controls -->
-          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    <div class="part2">
-        <h1 style="text-align:center;font-weight: bold;">Categories</h1>
-        <div class="box1">
-            <div class="conntent">
-              <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
-              <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
-              <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
-
-
-        
-    </div>
-    </div>
-    <div class="box1 ">
-        <div class="conntent">
-          <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
-          <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
-          <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
-
-
       
     
-    </div>
-</div>
-    <div class="box1">
+        <div class="container">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+        
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                <a href="Filter.html"> <img src="../Guruji home/img2/boyBlue.jpg" alt="Los Angeles" style="width:100%;height: 700px;"></a>
+                </div>
+          
+
+                <div class="item">
+                  <a href="Filter.html">  <img src="../Guruji home/img2/girlWithBook.jpeg" alt="Chicago" style="width:100%;height: 700px;" ></a>
+                </div>
+              
+                <div class="item">
+                  <a href="Filter.html">  <img src="../Guruji home/img2/boyBlue.jpg" alt="New york" style="width:100%;height: 700px;" ></a>
+                </div>
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            
+        </div>
+
+    <div class="part2">
+        <h1 style="text-align:center;font-weight: bold;">Categories Mouri</h1>
+        <div class="box1">
+            <div class="conntent">
+              <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+              <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+              <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+          </div>
+        </div>
+        <div class="box1">
+          <div class="conntent">
+            <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+            <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+            <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+        </div>
+        </div>
+        <div class="box1">
+          <div class="conntent">
+            <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+            <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+            <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+        </div>
+        </div>
+        <div class="box1">
         <div class="conntent">
-          <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
-          <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
-          <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
+          <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+          <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+          <div><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><a href="Filter.html"><p>view more</p></a></div>
+      </div>
+        </div>
+    </div>
 
 
-    </div>
-    </div>
-    <div class="box1">
-        <div class="conntent">
-          <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
-          <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
-          <div><a href="temp.html"></a><img src="../Guruji home/img2/boyBlue.jpg" alt=""><h3>Gemstones</h3><p>view more</p></a></div>
 
-
-       
-   </div>
-    </div>
-    </div>
     <div class="part3">
         <h4 style="text-align: center;">TOP SALE OF THIS WEEK</h3>
         <h1 style="text-align: center;font-size: 50px;">Featured Products</h1>
@@ -263,7 +295,7 @@
                         <p class="slash"><s>₹1,467.00 </s></p>
                         <p>₹1,334.00</p>
                       </div>
-                      <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+                      <a href="cartpage.html" class="btn btn-warning"><i class="bi bi-cart4"></i>Buy now</a>
                     </div>
                   </div>
                 </div>
@@ -281,7 +313,7 @@
                             <p class="slash"><s>₹1,467.00 </s></p>
                             <p>₹1,334.00</p>
                           </div>
-                          <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+                          <a href="cartpage.html" class="btn btn-warning"><i class="bi bi-cart4"></i>Buy now</a>
                         </div>
                       </div>
           </div>
@@ -298,7 +330,7 @@
                     <p class="slash"><s>₹1,467.00 </s></p>
                     <p>₹1,334.00</p>
                   </div>
-                  <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+                  <a href="cartpage.html" class="btn btn-warning"><i class="bi bi-cart4"></i>Buy now</a>
                 </div>
               </div>
           </div>
@@ -315,16 +347,17 @@
                   <p class="slash"><s>₹1,467.00 </s></p>
                   <p>₹1,334.00</p>
                 </div>
-                <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+                <a href="cartpage.html" class="btn btn-warning"><i class="bi bi-cart4"></i>Buy now</a>
                 </div>
               </div>
           </div>
          
     </div>
     <div class="button7">
-    <a href="Filter.html"><button class="btn btn-primary color" >Shop now</button></a>
+    <a href="Filter.html"><button class="btn btn-warning" >Shop now</button></a>
 </div>
     </div>
+
 </div>
     
 

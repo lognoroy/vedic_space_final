@@ -7,6 +7,7 @@
 body
 {
     background-color: #db5135 ;
+    overflow-x: hidden;
 }
 
 html 
@@ -130,9 +131,6 @@ nav
 {
     width: 120px;
     background-color: #931510;
-    position: absolute;
-
-
 
 }
 #google_translate_element:hover{
@@ -142,13 +140,18 @@ nav
     opacity:0.8;
 }
 
+.option .button3{
+  font-size:28px;
+  color: #913718;
+  background: none;
+  font-weight: bold;
+  padding: 5px 5px 35px 10px;
+}
 .nav-menu
 {
     list-style:none;
     width: 60%;
     font-family: Arial;
-
-
 }
 nav li{
   list-style:none;
@@ -586,7 +589,7 @@ header nav .navMenu a {
     width: 100%;
 }
 .part2{
-    width:35%;
+    width:100%;
     /* background-color: #358ED7; */
 }
 .box1{
@@ -659,7 +662,7 @@ width: 29%;
 padding-bottom: 1200px;
 }
 .color{
-    background-color: violet;
+    background-color:#931510;
     padding-top: 10px;
     padding-bottom: 10px;
 
@@ -675,7 +678,7 @@ padding-bottom: 1200px;
 }
 .card{
     background-color: whitesmoke;
-    border: 2px solid grey;
+    border: 2px solid #fff;
     padding-bottom: 10px;
 }
 .discount{
@@ -709,7 +712,7 @@ padding-bottom: 1200px;
 
 .hello
 {
-    background-color: #555;
+    background-color:#ffc15e;
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -728,7 +731,7 @@ padding-bottom: 1200px;
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: violet;
+    background-color:#913718;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -748,7 +751,7 @@ padding-bottom: 1200px;
   }
 
   #myBtn:hover {
-    background-color: #555;
+    background-color: #931510;
   }
 
   .cartAmount
@@ -820,7 +823,7 @@ main {
   }
   .product-description span {
     font-size: 12px;
-    color: #358ED7;
+    color: #931510;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-decoration: none;
@@ -843,7 +846,7 @@ main {
   .cable-config span {
     font-size: 14px;
     font-weight: 400;
-    color: #86939E;
+    color: #931510;
     margin-bottom: 20px;
     display: inline-block;
   }
@@ -921,7 +924,7 @@ main {
   }
   
   .cable-config a {
-    color: #358ED7;
+    color:#931510;
     text-decoration: none;
     font-size: 12px;
     position: relative;
@@ -1163,7 +1166,7 @@ margin-right: 20px
     width: 15px;
     margin-top: -7px;
     background: #fff;
-    border: 1px solid #003D7C;
+    border: 1px solid #931510;
     border-radius: 25px;
     z-index: 1;
   }
@@ -1207,7 +1210,7 @@ margin-right: 20px
       content:'';
       width:100%;
       height:2px;
-      background: #003D7C;
+      background: #931510;
       display:block;
       position: relative;
       top:16px;
@@ -1232,7 +1235,7 @@ margin-right: 20px
     width: 15px;
     margin-top: -7px;
     background: #fff;
-    border: 1px solid #003D7C;
+    border: 1px solid #931510;
     border-radius: 25px;
     z-index: 1;
   }
@@ -1271,7 +1274,7 @@ padding-right: 10px;
     margin-left: 20px;
   }
   .p-name p:hover{
-    color: violet;
+    color: #931510;
   }
 
   
@@ -1464,4 +1467,39 @@ padding-right: 10px;
 }
 .po{
   margin-top: 35px;
+}
+
+
+
+/* otp starts ******************************************8*/
+.input-box input
+{
+  width:90%;
+  background-color: rgb(238, 238, 238);
+  outline: none;
+  border: none;
+  text-align: center;
+  border-radius:10px;
+  height: 50px;
+}
+   
+/* search start */
+.input-box button
+{
+  outline: none;
+  border: none;
+  background: none;
+ 
+}
+
+
+
+.search-bar-icon
+{
+  font-size:28px;
+  color:rgb(129, 128, 128);
+  background: none;
+  font-weight: bold;
+  padding: 5px 5px 35px 10px;
+
 }

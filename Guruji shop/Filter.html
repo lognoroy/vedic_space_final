@@ -124,6 +124,7 @@
               </li>
               
               <li><button class="button2"><a href="track.html">Track Order</a></button></li>
+              <li><button class="button3" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-search"></i></button></li>
           </ul>
       </div>
       <li>      
@@ -212,7 +213,7 @@
       <div class="poi"><p></p></div>
       
       <div class="dropdown" style="float: right;margin-bottom: 30px;margin-right: 20px;margin-top: 120px;">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
           Defalt sorting
         </button>
         <div class="dropdown-menu">
@@ -230,7 +231,7 @@
               <h4>Filter by price</h4>
               <input type="range"   min="1880" max="13120" value="1880" class="slider1" id="myRange">
               <input type="range" min="1880" max="13120" value="13120" class="slider" id="myRanger">
-        <button style="background-color: violet;color:#fff;border: none;border-radius: 20px;width: 25%;margin-bottom: 20px;">Filter</button>
+              <button style="background-color:brown;color:#fff;border: none;border-radius:6px;width: 35%;margin-bottom: 20px;">Filter</button>
             
               <div class="value">
               <p>Price:$<span id="demo"></span>-$<span id="demor"></span></p>
@@ -283,7 +284,7 @@
                     <p class="slash"><s>₹1,467.00 </s></p>
                     <p>₹1,334.00</p>
                   </div>
-                  <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+                  <a href="headphone.html" class="btn btn-warning"><i class="bi bi-cart4"></i>Buy now</a>
                 </div>
               </div>
             </div>
@@ -302,7 +303,7 @@
                         <p class="slash"><s>₹1,467.00 </s></p>
                         <p>₹1,334.00</p>
                       </div>
-                      <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+                      <a href="headphone.html" class="btn btn-warning"><i class="bi bi-cart4"></i>Buy now</a>
                     </div>
                   </div>
       </div>
@@ -319,7 +320,7 @@
                 <p class="slash"><s>₹1,467.00 </s></p>
                 <p>₹1,334.00</p>
               </div>
-              <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+              <a href="headphone.html" class="btn btn-warning"><i class="bi bi-cart4"></i>Buy now</a>
             </div>
           </div>
       </div>
@@ -339,7 +340,7 @@
               <p class="slash"><s>₹1,467.00 </s></p>
               <p>₹1,334.00</p>
             </div>
-              <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+              <a href="headphone.html" class="btn btn-warning"><i class="bi bi-cart4"></i>Buy now</a>
             </div>
           </div>
       </div>
@@ -355,7 +356,7 @@
                 <p class="slash"><s>₹1,467.00 </s></p>
                 <p>₹1,334.00</p>
               </div>
-              <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+              <a href="headphone.html" class="btn btn-warning"><i class="bi bi-cart4"></i>Buy now</a>
             </div>
           </div>
 </div>
@@ -371,7 +372,7 @@
           <p class="slash"><s>₹1,467.00 </s></p>
           <p>₹1,334.00</p>
         </div>
-        <a href="headphone.html" class="btn btn-primary"><i class="bi bi-cart4"></i>Buy now</a>
+        <a href="headphone.html" class="btn btn-warning"><i class="bi bi-cart4"></i>Buy now</a>
       </div>
     </div>
 </div>
@@ -380,7 +381,7 @@
 
      
 <div class="button7">
-<a href="Filter-view.html"><button class="btn btn-primary color">View more</button></a>
+<a href="Filter-view.html"><button class="btn btn-warning">View more</button></a>
 </div>
 </div>
 
@@ -388,6 +389,34 @@
 <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>
 
  
+<!-- search ********************************start -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">TYPE TO SEARCH</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body input-box">
+        <br>
+        <input type="text" placeholder="Search products">
+        <button class="search-bar-icon"><i class="fa fa-search"></i></button>
+        <br>
+        <br>
+        <br>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- search end***************************************************************** -->
+
+
 <!-- twelveth part start**************************************************************** -->
 <section id="sec12" >
 
