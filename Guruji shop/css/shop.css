@@ -1503,3 +1503,13 @@ padding-right: 10px;
   padding: 5px 5px 35px 10px;
 
 }
+
+/* plus start********************************* */
+.little-box
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+
+}

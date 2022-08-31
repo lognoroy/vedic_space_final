@@ -118,29 +118,7 @@
                 </div>
             </div>
             <hr>
-            <div class="flo">
-              <div class="pic">
-                <img src="../Guruji home/img2/logo_low (1).jpg" alt="">
-              </div>
-              <div class="op">
-                      <div class="lo">
-                          <p>10 Mukhi Rudraksha</p>
-                          <div class="product-price1">
-                              <div class="select">
-                                      <input type="button" onclick="decrementValue()" value="-" class="input1" />
-                                      <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" class="input2" />
-                                      <input type="button" onclick="incrementValue()" value="+" class="input3" />
-                              </div>
-                            </div>
-                      </div>
-                      
-                          <div class="po">
-                          <p class="price4">₹5,333.00</p>
-                        </div>
-                </div>
-            </div>
-            <hr>
-          
+           
                 
                   
             
@@ -209,11 +187,12 @@
         <div class="product-price">
             <br>
             <br>
-            <div class="select">
-                    <input type="button" onclick="decrementValue()" value="-" class="input1" />
-                    <input type="text" name="quantity" value="1" maxlength="2" max="10" size="1" id="number" class="input2" />
-                    <input type="button" onclick="incrementValue()" value="+" class="input3" />
-            </div>
+            <div class="little-box">
+
+              <i class="fa fa-minus" onclick="decrement()"></i>
+              <h4 id="num">1</h4>
+              <i class="fa fa-plus" onclick="increment()"></i>
+          </div>
             <a href="cartpage.html" class="cart-btn">Buy Now</a>
         </div>
 
@@ -371,6 +350,8 @@
 <!-- first part start******************************************************************** -->
 
 <script src="js/shop.js"></script>
+<script src="js/headphone.js"></script>
+<!-- <script src="js/payment.js"></script> -->
 
 </body>
 </html>
